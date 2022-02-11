@@ -6,9 +6,11 @@ class SectionTitle extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text(
-      title,
-      style: Theme.of(context).textTheme.headline6,
+    return Expanded(
+      child: Text(
+        title,
+        style: Theme.of(context).textTheme.headline6,
+      ),
     );
   }
 }

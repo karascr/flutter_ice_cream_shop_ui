@@ -89,7 +89,7 @@ class HomeTopItem extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
-                  buildPriceTag(context, iceCream.price),
+                  buildPriceTag(context),
                   buildAddToCartButton(),
                 ],
               ),
@@ -100,7 +100,7 @@ class HomeTopItem extends StatelessWidget {
     );
   }
 
-  Row buildPriceTag(BuildContext context, double price) {
+  Row buildPriceTag(BuildContext context) {
     return Row(
       children: [
         Icon(
@@ -109,7 +109,7 @@ class HomeTopItem extends StatelessWidget {
           size: 16,
         ),
         Text(
-          "${price.toStringAsFixed(2)}",
+          "${19.toStringAsFixed(2)}",
           style: TextStyle(
             fontWeight: FontWeight.w700,
             fontSize: 18,
