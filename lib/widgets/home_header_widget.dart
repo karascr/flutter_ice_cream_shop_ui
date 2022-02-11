@@ -25,6 +25,11 @@ class HomeHeader extends StatelessWidget {
         ),
         trailing: CircleAvatar(
           backgroundColor: Theme.of(context).primaryColor,
+          child: Icon(
+            Icons.person,
+            color: Colors.black,
+            size: 30,
+          ),
         ),
       ),
     );

@@ -1,16 +1,9 @@
-# ice_cream_shop
+# Flutter Ice Cream Shop UI
 
-A new Flutter project.
+An ice cream shop UI desing made in Flutter.
 
-## Getting Started
+## Home Screen
+![ice_cream_shop](/screenshots/home.jpg)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Details Screen
+![ice_cream_shop](/screenshots/details.jpg)
